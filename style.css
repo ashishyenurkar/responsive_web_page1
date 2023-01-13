@@ -1,0 +1,276 @@
+@media screen and (min-width: 1024px) {
+* {
+  box-sizing: border-box;
+  background-color: white;
+}
+#tabicn{
+    display: none;
+    max-width: 100px;
+}
+.main{
+    margin: auto;
+    border-top: 2px solid orange;
+    padding: 20px 340px 20px 350px;
+    align-items: center;
+    font-style:bold ;
+    font-family: 'Lucida Sans';
+    
+}
+.center{
+    text-align: center;  
+}
+.logo{
+    max-width: 100px;
+    height: auto;}
+div.navbar{
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+background-color: white;
+}
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px 0px 10px 100px;
+  margin-top: 20px;
+}
+li{
+    float: left;
+    margin-left:50px;
+}
+li a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    }
+.active {
+     color: orange;
+}
+.slider{
+    max-width: 1200px;
+    max-height: auto;
+}
+#inimg{
+    max-width: 250px;
+    max-height: auto;
+    float: right;
+}
+.intro{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+hr{
+    border: 2px solid black;
+    width: 10px;
+}
+.btn{
+    text-align: center;
+    padding-top: 20px;
+}
+#btn{
+    text-align: center;
+    padding: 10px;
+}
+img.showcase{
+    width: 200px;
+    padding: 20px;
+    margin:10px 0px 50px 0px;
+    border: 0px solid;
+  border-radius: 110px;
+}
+.show{
+    margin-bottom: 20px;
+    padding-left: 290px;
+    }
+.copy{
+    max-width: 20px;
+}
+#cpr{
+    padding-left: 40p;
+}
+#cpn{
+    padding-left: 550px;}
+    #cname{
+        color: orange;
+    }
+.fotr{
+    padding: 2px;
+    display: inline-flex;
+    border-top:2px solid black;
+    border-bottom: 4px solid black;
+
+}
+}
+/*for tablets view*/
+@media screen and (max-width: 1024px) {
+    body{
+        border-top: 2px solid orange;
+        margin-bottom:10px;
+    }
+    * {
+        box-sizing: border-box;
+        background-color: white;
+      }
+      .main{
+        margin-top:10px;
+        align-items: center;
+        padding:20px 20px 20px 20px;
+        font-style:normal ;
+        font-family: 'Lucida Sans';
+        
+    }
+      .center{
+        text-align: center;}
+      div.navbar{
+        display: none;
+        }
+        .logo{
+            max-width: 100px;
+            height: auto;}
+        #tabicn{
+            display: block;
+            max-width: 30px;
+            margin-left: 740px;
+        }
+        .tabnav{
+            display: inline-flex;
+        }
+        .slider{
+            max-width: 1000px;
+            max-height: auto;
+        }
+        #inimg{
+            max-width: 250px;
+            max-height: auto;
+            float: right;
+        }
+        .intro{
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        
+        hr{
+            border: 2px solid black;
+            width: 10px;
+        }
+        .btn{
+            text-align: center;
+            padding-top: 20px;
+        }
+        #btn{
+            text-align: center;
+            padding: 10px;
+        }
+        img.showcase{
+            width: 200px;
+            padding: 20px;
+            margin:10px 0px 20px 0px;
+            border: 0px solid;
+          border-radius: 110px;
+        }
+        .show{
+            margin-bottom: 10px;
+            padding-left: 200px;
+            }
+            .copy{
+                max-width: 20px;
+            }
+            #cpr{
+                padding-left: 10p;
+            }
+            #cpn{
+                padding-left: 330px;
+            }
+            #cname{
+                color: orange;
+            }
+            .fotr{
+                padding: 1px;
+                display: inline-flex;
+                border-top:2px solid black;
+                border-bottom: 4px solid black;
+            
+            }}
+/*for mobile view*/
+@media screen and (max-width: 667px){
+    body{
+        border-top: 2px solid orange;
+        margin-bottom:10px;
+    }
+    * {
+        box-sizing: border-box;
+        background-color:white;
+      }
+      .main{
+        margin-top:10px;
+        align-items: center;
+        padding:10px 10px 10px 5px;
+        font-style:small ;
+        font-family: sans-serif;}
+        .center{
+            text-align: center;}
+            .logo{
+            max-width: 90px;
+            height: auto;}
+            #tabicn{
+                display: block;
+                max-width: 30px;
+                margin-left: 350px;}
+    .slider{
+        max-width: 800px;
+        max-height: auto;}
+        #inimg{
+            max-width: 230px;
+            max-height: auto;
+            float: right;}
+    .intro{
+        padding: 10px;
+        margin-bottom: 5px;}
+        hr{
+            border: 2px solid black;
+            width: 10px;}
+    .btn{
+        text-align: center;
+        padding-top: 20px;
+        }
+        #btn{
+            text-align: center;
+            padding: 10px;
+            }
+    img.showcase{
+        width: 150px;
+        padding: 20px;
+        margin:10px 0px 20px 0px;
+        border: 0px solid;
+        border-radius: 110px;
+    }
+    .show{
+        margin-bottom: 10px;
+        padding-left: 100px;
+        }
+        .copy{
+            max-width: 15px;
+        }
+        #cpr{
+            padding-left: 10px;
+        }
+        #cpn{
+            padding-left: 100px;
+        }
+        #cname{
+            color: orange;
+        }
+        .fotr{
+            padding: 1px;
+            display: inline-flex;
+            border-top:2px solid black;
+            border-bottom: 4px solid black;
+        
+        }
+        
+}
